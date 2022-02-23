@@ -12,7 +12,7 @@ const commentSchema = new mongoose.Schema({
         required: true 
     },
     comment_dec: {type: String, required: true},
-    votes: {type: Number, required:false, default: true},
+    votes: {type: Number, required:false, default: 0},
     
 },{
     versionKey: false,
